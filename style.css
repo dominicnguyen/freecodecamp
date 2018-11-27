@@ -1,0 +1,60 @@
+
+#header {
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: #eee;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    float: right;
+    padding-right: 100px;
+}
+
+#header-img {
+    display: inline-block;
+}
+
+main {
+
+}
+
+#atf {
+    padding-top: 70px;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#email {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+#submit {
+    margin-top: 15px;
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 30px;
+    cursor: pointer;
+}
