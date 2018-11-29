@@ -1,12 +1,36 @@
+@media (max-width: 320px) {
+    #nav-bar {
+        display: none;
+    }
+}
+
 
 #navbar {
     display: block;
     position: fixed;
-    width: 30%;
+    width: 25%;
+}
+
+.nav-link {
+    display: block;
+    height: 25px;
+    border-top: 1px solid;
+    padding: 15px 0px 8px 20px;
+    text-decoration: none;
+    color: black;
 }
 
 #main-doc {
     display: block;
-    width: 69%;
+    width: 70%;
     float: right;
+}
+
+
+
+header {
+    height: 55px;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 10px;
 }
