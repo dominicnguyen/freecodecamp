@@ -1,0 +1,12 @@
+
+#navbar {
+    display: block;
+    position: fixed;
+    width: 30%;
+}
+
+#main-doc {
+    display: block;
+    width: 69%;
+    float: right;
+}
